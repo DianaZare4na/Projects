@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Погода</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="weather">
+		<div class="weather__inner">
+			<div class="current">
+				<div class="current__city"> -- </div>
+				<div class="current__description"> -- </div>
+				<div class="current__temperature"> --˚</div>
+				<div class="forecast__icon"></div>
+			</div>
+
+			<div class="forecast">
+				<div class="forecast__temperature"> </div>
+				<div class="forecast__item"></div>
+			</div>
+
+			<div class="details">
+				<div class="details__row">
+					<div class="details__item">
+						<div class="details__name">ощущается как</div>
+					</div>
+					<div class="details__item pressure">
+						<div class="details__named">давление</div>
+					</div>
+				</div>
+				<div class="details__row">
+					<div class="details__item">
+						<div class="details__namevl">влажность</div>
+					</div>
+					<div class="details__item">
+						<div class="details__namevet">ветер</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="show">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="css/script.js"></script>
+</body>
+</html>
